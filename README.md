@@ -30,3 +30,8 @@ _If your prediction was correct_ - great! Next problem.
 Do you have some Closure problems that are unaddressed by this problem set? 
 
 Please make a Pull Request and I'll be happy to add :)
+
+## Shoutouts
+
+Shoutout to Jacob Ward for the seventh question in the list. Tricky!
+https://jacobward.io/post/presenting-javascript-interview-question/
