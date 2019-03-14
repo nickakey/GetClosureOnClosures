@@ -5,10 +5,13 @@ function one(){
     }, 0)
   }
 }
+
 //one();
 //Expected log:
 //Actual log:
 //Why does it log that?¿
+
+
 function two(){
   for(let i = 0; i < 3; i++){
     setTimeout(function(){
@@ -16,10 +19,12 @@ function two(){
     }, 0)
   }
 }
+
 //two();
 //Expected log:
 //Actual log:
 //Why does it log that?¿
+
 
 function three(){
   for(var i = 0; i < 3; i++){
@@ -28,10 +33,12 @@ function three(){
     ), 0)
   }
 }
+
 //three();
 //Expected log:
 //Actual log:
 //Why does it log that?¿
+
 
 function four(){
   for(var i = 0; i < 3; i++){
@@ -41,10 +48,12 @@ function four(){
     }(), 0)
   }
 }
+
 //four();
 //Expected log:
 //Actual log:
 //Why does it log that?¿
+
 
 function five(){
   for(var i = 0; i < 3; i++){
@@ -53,10 +62,12 @@ function five(){
     }(i), 0)
   }
 }
+
 //five();
 //Expected log:
 //Actual log:
 //Why does it log that?
+
 
 function six(){
   for(var i = 0; i < 3; i++){
@@ -66,6 +77,7 @@ function six(){
     }, 0)
   }
 }
+
 //six();
 //Expected log:
 //Actual log:
