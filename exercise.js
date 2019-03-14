@@ -82,3 +82,23 @@ function six(){
 //Expected log:
 //Actual log:
 //Why does it log that?
+
+function seven(){
+  (function() {
+      const numbers = [0.1, 0.2, 0.3];
+      let sum = 0;
+
+      for (var i = 0; i < numbers.length; ++i) {
+          setTimeout(() => {
+              sum += numbers[i];
+          }, 0);
+      }
+
+      console.log(sum === 0.6);
+  })();
+}
+
+//seven();
+//Expected log:
+//Actual log:
+//Why does it log that?
