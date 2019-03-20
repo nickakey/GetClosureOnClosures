@@ -23,7 +23,7 @@ After you make a prediction, comment out the function call, and run the code!
 
 _If your prediction was correct_ - great! Next problem.
 
-**If your prediction was incorrect** - STOP, learn more about hoisting, and don't continue until you are able to explain _WHY_ the code does what does. 
+**If your prediction was incorrect** - STOP, learn more about closures, and don't continue until you are able to explain _WHY_ the code does what does. 
 
 ## Contributing
 
